@@ -1,0 +1,15 @@
+# --- signing secrets: never commit these ---
+android/keystore/
+android/keystore.properties
+
+# --- local machine paths ---
+android/local.properties
+
+# --- build outputs ---
+android/.gradle/
+android/build/
+android/app/build/
+
+# --- misc ---
+node_modules/
+.DS_Store
