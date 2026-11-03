@@ -480,8 +480,9 @@
   $('back').addEventListener('click', function(){
     $('filter').value='';
     renderLenDots();
-    if(state.mode==='word'){ showStep(1); return; }
-    showStep(state.len===1?1:2);
+    // "change" always returns to step 01 so you can pick a fresh length and
+    // switch modes, instead of being dropped into the dots/underscores step.
+    showStep(1);
   });
   $('clear').addEventListener('click', function(){
     db.tried[curKey()]=[];

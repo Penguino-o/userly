@@ -10,7 +10,7 @@ you've already tried, and records the ones you've claimed — no account, no net
 - [userly-release.apk](https://penguino-o.github.io/userly/userly-release.apk) — signed release build
 - [userly.apk](https://penguino-o.github.io/userly/userly.apk) — debug build
 
-Release APK SHA-256: `3bf88d55e335327f7015dc53b7ffc1d4dfa9193b9c3d60bd86055239cf89ca64`
+Release APK SHA-256: `9f12eb6b92d498273cc45b18684d14fde3c631aba5bf0f64a31efbe840f5529f`
 
 ## What it does
 
